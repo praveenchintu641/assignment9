@@ -1,0 +1,55 @@
+h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    width: fit-content;
+  }
+  
+  .projects-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .projects-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #333;
+    background-color: #f4f4f4;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .projects-list li::before {
+    content: '\2022';
+    color: #007bff;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  
+  .projects-list li:hover {
+    background-color: #e1f3ff;
+    border-left-color: #0056b3;
+    transform: translateX(10px);
+  }
+  
+  .projects-list li strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .projects-list li:hover::before {
+    color: #0056b3;
+  }
+  

@@ -1,0 +1,44 @@
+<div class="app-container">
+  <app-header></app-header> <!-- Use the HeaderComponent here -->
+
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+
+  <nav>
+    <!-- Navigation buttons that trigger scroll to each section -->
+    <button (click)="scrollToSection('objective')">Objective</button>
+    <button (click)="scrollToSection('education')">Education</button>
+    <button (click)="scrollToSection('projects')">Projects</button>
+    <button (click)="scrollToSection('activities')">Activities</button>
+    <button (click)="scrollToSection('skills')">Skills</button>
+    <button (click)="scrollToSection('interests')">Interests</button>
+  </nav>
+
+  <div class="content">
+    <!-- Sections with corresponding IDs for smooth scrolling -->
+    <div id="objective">
+      <app-objective></app-objective>
+    </div>
+    
+    <div id="education">
+      <app-education></app-education>
+    </div>
+    
+    <div id="projects">
+      <app-projects></app-projects>
+    </div>
+    
+    <div id="activities">
+      <app-activities></app-activities>
+    </div>
+    
+    <div id="skills">
+      <app-skills></app-skills>
+    </div>
+    
+    <div id="interests">
+      <app-interests></app-interests>
+    </div>
+  </div>
+</div>

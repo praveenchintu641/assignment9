@@ -1,0 +1,50 @@
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.skills-list li {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.skills-list li strong {
+    color: #0077b5;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.bar {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+.java {
+    background-color: #ff9900;
+}
+
+.webdev {
+    background-color: #4CAF50;
+}
+
+.software {
+    background-color: #2196F3;
+}
+
+.database {
+    background-color: #f44336;
+}
+
+.git {
+    background-color: #00BCD4;
+}

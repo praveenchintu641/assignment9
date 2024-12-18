@@ -1,0 +1,76 @@
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #16d851;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 10px;
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+  
+  h2:hover {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .interests-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    font-family: 'Arial', sans-serif;
+    text-transform: capitalize;
+  }
+  
+  .interests-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .interests-list li::before {
+    content: '\2022';
+    color: #28a745;
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  
+  .interests-list li:hover {
+    color: #28a745;
+    transform: translateX(10px);
+  }
+  
+  .interests-list li:hover::before {
+    color: #0056b3;
+  }
+  
+  .interests-list li:hover {
+    background-color: #f4f7f6;
+    border-radius: 5px;
+    padding-left: 35px;
+  }
+  
+  .interests-list li:nth-child(odd) {
+    background-color: #f9f9f9;
+    border-left: 3px solid #28a745;
+    padding-left: 25px;
+  }
+  
+  .interests-list li:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .interests-list li:nth-child(odd):hover {
+    background-color: #dfe7d0;
+  }
+  

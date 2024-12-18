@@ -1,0 +1,7 @@
+{
+  "name": "assignment9",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
